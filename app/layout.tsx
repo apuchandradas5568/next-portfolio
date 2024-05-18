@@ -17,6 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="shortcut icon" href="app.svg" type="image" />
       <body className={inter.className}>         <ThemeProvider
             attribute="class"
             defaultTheme="dark"
